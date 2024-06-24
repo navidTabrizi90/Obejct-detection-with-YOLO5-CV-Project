@@ -10,6 +10,8 @@ This repository contains code and documentation for training and evaluating obje
   - [Faster R-CNN](#faster-r-cnn)
 - [Validation](#validation)
 - [Detection](#detection)
+- [Result](#result)
+
 
 ## Installation
 
@@ -24,7 +26,7 @@ pip install -r requirements.txt
 
 ### Data Preparation
 
-The stage of annotations format conversion for training is where data preparation occurs. Here is an example of the code to process your dataset.
+in this stage we convert the annotations of the samples in the dataset to the scale that can be fed to YOLOv5.
 
 ```paython
 
@@ -122,10 +124,21 @@ python train.py --img 640 --batch 16 --epochs 50 --data /path/to/your/data.yaml 
 
 ## Validation
 
-Run the validation with the respective validation scripts using models in respective directories. Make sure your data is properly formatted and located in respective directories.
+Run the validation with the respective validation scripts using models in respective directories.
 
 
 ## Detection
 
-Detection with trained models can be done using the provided detection scripts. These scripts are designed to take an image as input and then output detected objects with their corresponding bounding boxes.
+Detection with trained models is done using the provided detection scripts. These scripts are designed to take an image as input and then output detected objects with their corresponding bounding boxes.
+
+## Result
+
+Totally the results show that performance of YOLOv5 was better in comparison to Faster R-CNN .
+
+
+<div align="center"> <img src="example-photo.jpg"> </div>
+
+<p>
+    <em>Detected objects in the images into person and person-like by YOLOv5.</em>
+</p>
 
