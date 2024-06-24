@@ -96,7 +96,7 @@ process_dataset(dataset_path)
 
 ## Training Models
 
-*YOLOv5*
+*## YOLOv5*
 
 Follow the steps below to train a YOLOv5 model:
 
@@ -115,7 +115,7 @@ pip install -r requirements.txt
 python train.py --img 640 --batch 16 --epochs 50 --data /path/to/your/data.yaml --weights yolov5s.pt
 ```
 
-*Faster R-CNN*
+*## Faster R-CNN*
 
 1. Set up the model and training configuration.
 2. Run the training process.
