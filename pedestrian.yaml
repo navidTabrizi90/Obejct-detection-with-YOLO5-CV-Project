@@ -1,0 +1,7 @@
+path: /teamspace/studios/this_studio/dataset  # dataset root dir
+train: images/Train/JPEGImages  # train images
+val: images/Val/JPEGImages  # val images
+test: images/Test/JPEGImages  # test images (optional)
+
+nc: 2  # number of classes
+names: ['person', 'person-like']  # class names
