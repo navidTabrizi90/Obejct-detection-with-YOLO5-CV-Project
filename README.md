@@ -133,12 +133,14 @@ Detection with trained models is done using the provided detection scripts. Thes
 
 ## Result
 
-Totally the results show that performance of YOLOv5 was better in comparison to Faster R-CNN .
+Totally the results show that performance of YOLOv5 was better in comparison to Faster R-CNN .    
+<br>
+<br>
 
 
 <div align="center"> <img src="example-photo.jpg"> </div>
 
-<p>
+<p align="center">
     <em>Detected objects in the images into person and person-like by YOLOv5.</em>
 </p>
 
